@@ -66,6 +66,12 @@
             <type>war</type>
             <scope>runtime</scope>
         </dependency>
+	<dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-pac4j-webflow</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
